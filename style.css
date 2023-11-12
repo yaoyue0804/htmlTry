@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    color: #fc2c6e;
+    font-size: 40px; /*字體大小*/
+    font-family: Arial; /*字型*/
+    line-height: 14px; /*行距*/
+    text-align: center; /*文字靠中*/
+    /*文字邊框border*/
+    border-left: #ff7da6 2px dashed; /*顏色 大小 類型solid dashed dotted*/
+    border-bottom: #0429ff  2px dashed;
+    border-top: #279eff 2px dashed;
+    border-right: #ff6f10 2px dashed;
+}
+h1:hover{
+    font-size: 50px;
+}
+
+p{
+    color: #ff7da6;
+    font-size: 30px;
+    line-height: 1;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+}
+a:hover{
+    color: #279eff;
+}
+a:active{
+    color:aquamarine;
+}
+
+img{
+    border: #d5d5d5 10px solid;
+}
+
+.akito{
+    color: #ff6f10;
+    font-size: 30px
+}
+.toya{
+    color: #0429ff;
+    font-size: 30px
+}
+.test{
+    color: aqua;
+    text-indent: 60px; /*首行縮排*/
+    text-decoration: underline; /*底線*/
+    /*text-decoration: line-through;  劃線*/
+    letter-spacing: 2px; /*字距*/
+}
